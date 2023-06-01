@@ -2,9 +2,9 @@ const menu = [
   {
     id: 1,
     title: 'Борщ',
-    category: 'Гарячі страви 1',
+    category: 'Гарячі страви',
     price: 45,
-    img: './images/item-1.jpeg',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR9lD-DbMNXPcce0CI81Kh8Ngr069uPsy9Pw&usqp=CAU',
     desc: `Борщ —  вариться з посічених буряків, капусти з додатком картоплі, квасолі та різних приправ.`,
   },
   {
