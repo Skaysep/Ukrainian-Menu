@@ -1,7 +1,7 @@
 const menu = [
   {
     id: 1,
-    title: 'Борщ',
+    title: 'Суп',
     category: 'Гарячі страви',
     price: 45,
     img: './images/item-1.jpeg',
