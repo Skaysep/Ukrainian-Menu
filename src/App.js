@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import Menu from './Menu';
 import Categories from './Categories';
 import items from './data';
@@ -8,7 +8,7 @@ function App() {
   const [menuItems, setMenuItems] = useState(items);
   const [categories, setCategories] = useState(allCategories);
 
-  const filterItems = category => {
+  const filterItems = (category) => {
     console.log('click', category);
     if(category =='all'){
       setMenuItems(items);
@@ -20,6 +20,7 @@ function App() {
 
   return (
     <main>
+      {console.log("render")}
       <section className="menu section">
         <div className="title">
           <h2>our menu</h2>
